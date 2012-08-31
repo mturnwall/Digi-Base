@@ -13,8 +13,14 @@
 .row {
   margin-bottom: 10px;
   margin-left: - getGutterWidth();
-  letter-spacing: -4px;
-  word-spacing: -4px;
+  *zoom: 1;
+  &:before,
+  &:after {
+    clear: both;
+    display: table;
+    content: "";
+    line-height: 0;
+  }
 }
 
 // .col
@@ -23,12 +29,9 @@
     @if $display-grid-bg {
       background: #cccccc;
     }
-    display: inline-block;
+    float: left;
     margin-left: getGutterWidth();
-    letter-spacing: 0;
-    vertical-align: top;
     width: getColumnWidthById($i);
-    word-spacing: 0;
     &.fill {
       background: #cccccc;
       padding: 10px;
