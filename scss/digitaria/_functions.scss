@@ -1,0 +1,22 @@
+@function getColumnWidth() {
+  @return (getContainerWidth() - (getGutterWidth() * ($totalColumns - 1))) / $totalColumns;
+}
+@function getContainerWidth() {
+  @return $containerWidth;
+}
+@function getGutterWidth() {
+  @return $gutterWidth;
+}
+@function getColumnWidthById($col) {
+  @return ($col * getColumnWidth()) + (getGutterWidth() * ($col - 1));
+}
+@function getOffsetWidthById($col) {
+  @return ($col * getColumnWidth()) + (getGutterWidth() * ($col + 1));
+}
+
+
+
+// Verify Column Widths are integers
+@if round(getColumnWidth()) != getColumnWidth() {
+  @warn "!!!!! Your column widths are not integers !!!!!";
+}
