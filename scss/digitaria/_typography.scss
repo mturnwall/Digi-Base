@@ -1,0 +1,61 @@
+//----------------------------
+// Font Stacks
+@mixin font-base {
+  font-weight: 400;
+  font-style: normal;
+  text-rendering: optimizeLegibility;
+}
+@mixin font-sans {
+  @include font-base;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+}
+@mixin font-serif {
+  @include font-base;
+  font-family: Constantia, "Lucida Bright", Lucidabright, "Lucida Serif", Lucida, "DejaVu Serif", "Bitstream Vera Serif", "Liberation Serif", Georgia, serif;
+}
+@mixin font-mono {
+  @include font-base;
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+@mixin getDefaultFontFace() {
+  @if $font-face == 'sans' {
+    @include font-sans;
+  }
+  @if $font-face == 'serif' {
+    @include font-serif;
+  }
+  @if $font-face == 'mono' {
+    @include font-mono;
+  }
+}
+//----------------------------
+// modular-scale settings
+$ratio: fourth();
+$base-size: $font-size;
+$round_pixels: true !default;
+
+body {
+  @include getDefaultFontFace();
+  color: $color-text;
+  font-size: ms(0);
+  line-height: ms(0) * 1.25;
+}
+
+@for $i from 1 through 6 {
+  h#{$i} {
+    font-size: ms(6 - $i);
+    font-weight: 600;
+    line-height: ms(6 - $i) * 1.25;
+    margin-bottom: ms(0);
+    margin-top: ms(0);
+  }
+}
+
+p {
+  margin-bottom: ms(0);
+  margin-top: ms(0);
+}
+
+pre, code {
+  @include font-mono;
+}

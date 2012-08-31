@@ -1,12 +1,20 @@
-
+//----------------------------
 // Grid Settings
-$containerWidth: 1000px !default;
-$displayGridBg: true !default;
-$gutterWidth: 20px !default;
-$isResponsive: false !default;
-$totalColumns: 12 !default;
+$display-grid-bg: false !default;
+$column-width: 55px !default;
+$gutter-width: 20px !default;
+$total-columns: 12 !default;
+// Responsive
+$is-responsive: true !default;
+$has-small: true !default;
+$has-medium: true !default;
+$has-xlarge: true !default;
+$media-current: 0px;
+$media-small: 768px !default;
+$media-medium: 979px !default;
+$media-xlarge: 1200px !default;
 
-// Media Query Breakpoints
-$mediaSmall: 768px !default;
-$mediaMedium: 1279px !default;
-$mediaXlarge: 1441px !default;
+//----------------------------
+// Typography Settings
+$font-face: 'sans' !default;
+$font-size: 16px !default;

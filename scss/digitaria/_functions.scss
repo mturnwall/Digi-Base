@@ -1,11 +1,25 @@
+//----------------------------
+// Grid Functions
 @function getColumnWidth() {
-  @return (getContainerWidth() - (getGutterWidth() * ($totalColumns - 1))) / $totalColumns;
+  @if $media-current == $media-medium {
+    @return $column-width;
+  }
+  @if $media-current == $media-xlarge {
+    @return $column-width + 25;
+  }
+  @return $column-width;
 }
 @function getContainerWidth() {
-  @return $containerWidth;
+  @return (getColumnWidth() * $total-columns) + (getGutterWidth() * ($total-columns - 1));
 }
 @function getGutterWidth() {
-  @return $gutterWidth;
+  @if $media-current == $media-medium {
+    @return 10px;
+  }
+  @if $media-current == $media-xlarge {
+    @return 20px;
+  }
+  @return $gutter-width;
 }
 @function getColumnWidthById($col) {
   @return ($col * getColumnWidth()) + (getGutterWidth() * ($col - 1));
@@ -13,8 +27,6 @@
 @function getOffsetWidthById($col) {
   @return ($col * getColumnWidth()) + (getGutterWidth() * ($col + 1));
 }
-
-
 
 // Verify Column Widths are integers
 @if round(getColumnWidth()) != getColumnWidth() {

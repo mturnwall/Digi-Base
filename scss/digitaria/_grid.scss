@@ -1,50 +1,130 @@
+// box-sizing
 * {
   @include box-sizing(border-box);
 }
 
-// Setup Container
+// .container
 .container {
   margin: 0 auto;
-  max-width: 100%;
-  min-width: $mediaSmall;
   width: getContainerWidth();
-  @if $displayGridBg {
-    @include column-grid-background($totalColumns, getColumnWidth(), getGutterWidth(), 0, #eeeeee);
-  }
 }
 
-// Setup Row
+// .row
 .row {
-  @if $displayGridBg {
-    margin-bottom: 10px;
-  }
+  margin-bottom: 10px;
   margin-left: - getGutterWidth();
-  *zoom: 1;
-  &:before,
-  &:after {
-    clear: both;
-    display: table;
-    content: "";
-    line-height: 0;
-  }
+  letter-spacing: -4px;
+  word-spacing: -4px;
 }
 
-// Setup Columns
-@for $i from 1 through $totalColumns {
+// .col
+@for $i from 1 through $total-columns {
   .col#{$i} {
-    @if $displayGridBg {
-      background: rgba(0,0,0,0.5);
-      padding: 10px 0;
+    @if $display-grid-bg {
+      background: #cccccc;
     }
-    float: left;
+    display: inline-block;
     margin-left: getGutterWidth();
+    letter-spacing: 0;
+    vertical-align: top;
     width: getColumnWidthById($i);
+    word-spacing: 0;
+    &.fill {
+      background: #cccccc;
+      padding: 10px;
+    }
   }
 }
 
-// Setup Offsets
-@for $i from 1 through $totalColumns - 1 {
+// .off
+@for $i from 1 through $total-columns - 1 {
   .off#{$i} {
     margin-left: getOffsetWidthById($i);
+  }
+}
+
+//----------------------------
+// Responsive
+@if $is-responsive {
+  // small
+  @if $has-small {
+    @media (max-width: $media-small) {
+      $media-current: $media-small;
+      body {
+        padding: 0 20px;
+      }
+      .container {
+        width: auto;
+      }
+      .row {
+        margin-left: 0;
+      }
+      @for $i from 1 through $total-columns {
+        .col#{$i} {
+          float: none;
+          display: block;
+          width: auto;
+          margin-left: 0;
+          @if $i == $total-columns {
+            width: 100%;
+          }
+        }
+      }
+      @for $i from 1 through $total-columns - 1 {
+        .off#{$i} {
+          margin-left: 0;
+        }
+      }
+    }
+  }
+
+  // medium
+  @if $has-medium {
+    @media (min-width: $media-small) and (max-width: $media-medium) {
+      $media-current: $media-medium;
+
+      .container {
+        width: getContainerWidth();
+      }
+      .row {
+        margin-left: - getGutterWidth();
+      }
+      @for $i from 1 through $total-columns {
+        .col#{$i} {
+          margin-left: getGutterWidth();
+          width: getColumnWidthById($i);
+        }
+      }
+      @for $i from 1 through $total-columns - 1 {
+        .off#{$i} {
+          margin-left: getOffsetWidthById($i);
+        }
+      }
+    }
+  }
+
+  // x-large
+  @if $has-xlarge {
+    @media (min-width: $media-xlarge) {
+      $media-current: $media-xlarge;
+
+      .container {
+        width: getContainerWidth();
+      }
+      .row {
+        margin-left: - getGutterWidth();
+      }
+      @for $i from 1 through $total-columns {
+        .col#{$i} {
+          margin-left: getGutterWidth();
+          width: getColumnWidthById($i);
+        }
+      }
+      @for $i from 1 through $total-columns - 1 {
+        .off#{$i} {
+          margin-left: getOffsetWidthById($i);
+        }
+      }
+    }
   }
 }
