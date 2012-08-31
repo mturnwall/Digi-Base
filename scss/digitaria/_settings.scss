@@ -17,4 +17,10 @@ $media-xlarge: 1200px !default;
 //----------------------------
 // Typography Settings
 $font-face: 'sans' !default;
-$font-size: 16px !default;
+$font-size: 15px !default;
+
+//----------------------------
+// Color Settings
+$color-link: #4084D0 !default;
+$color-text: #555555 !default;
+$color-border: lighten($color-text, 50%);

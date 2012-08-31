@@ -32,10 +32,6 @@
     float: left;
     margin-left: getGutterWidth();
     width: getColumnWidthById($i);
-    &.fill {
-      background: #cccccc;
-      padding: 10px;
-    }
   }
 }
 

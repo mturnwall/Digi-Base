@@ -36,26 +36,38 @@ $round_pixels: true !default;
 
 body {
   @include getDefaultFontFace();
-  color: $color-text;
   font-size: ms(0);
-  line-height: ms(0) * 1.25;
+  line-height: round(ms(0) * $ratio);
 }
 
 @for $i from 1 through 6 {
   h#{$i} {
     font-size: ms(6 - $i);
     font-weight: 600;
-    line-height: ms(6 - $i) * 1.25;
-    margin-bottom: ms(0);
-    margin-top: ms(0);
+    line-height: round(ms(6 - $i) * $ratio);
   }
 }
 
 p {
-  margin-bottom: ms(0);
-  margin-top: ms(0);
+  margin: ms(0) 0;
 }
 
-pre, code {
+blockquote {
+  border-style: solid;
+  border-left-width: 5px;
+  margin: ms(0) 10px;
+  padding: 10px;
+}
+
+pre {
+  @include font-mono;
+  background-color: lighten($color-border, 10%);
+  border-style: solid;
+  border-width: 1px;
+  margin: ms(0) 0;
+  padding: 10px;
+}
+
+code {
   @include font-mono;
 }

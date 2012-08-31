@@ -1,1 +1,18 @@
-$color-text: #555555 !default;
+a {
+  color: $color-link;
+  &:hover {
+    color: darken($color-link, 20%);
+  }
+}
+
+blockquote {
+  border-color: $color-border;
+}
+
+body {
+  color: $color-text;
+}
+
+pre {
+  border-color: $color-border;
+}
