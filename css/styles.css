@@ -79,25 +79,45 @@ blockquote {
 
 /* line 12, ../scss/digitaria/_colors.scss */
 body {
+  background-color: white;
   color: #555555;
 }
 
-/* line 16, ../scss/digitaria/_colors.scss */
+/* line 17, ../scss/digitaria/_colors.scss */
+code {
+  background-color: #eeeeee;
+}
+
+/* line 21, ../scss/digitaria/_colors.scss */
 pre {
+  background-color: #eeeeee;
   border-color: #d4d4d4;
 }
 
 /* line 1, ../scss/digitaria/_components.scss */
-section header {
-  border-bottom: 1px solid #d4d4d4;
-  margin-bottom: 16px;
-}
-/* line 4, ../scss/digitaria/_components.scss */
-section header h1, section header h2, section header h3, section header h4, section header h5, section header h6 {
-  margin-bottom: 0;
+footer.page {
+  background-color: #555555;
+  color: white;
+  padding: 10px 0;
 }
 
-/* line 9, ../scss/digitaria/_components.scss */
+/* line 8, ../scss/digitaria/_components.scss */
+header h1, header h2, header h3, header h4, header h5, header h6, hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
+  margin: 0;
+}
+/* line 11, ../scss/digitaria/_components.scss */
+header.page, hgroup.page {
+  background-color: #555555;
+  color: white;
+  padding: 10px 0;
+}
+/* line 16, ../scss/digitaria/_components.scss */
+header.section, hgroup.section {
+  border-bottom: 1px solid #d4d4d4;
+  margin: 16px 0;
+}
+
+/* line 22, ../scss/digitaria/_components.scss */
 .fill {
   background: #eeeeee;
   border: 1px solid #d4d4d4;
@@ -785,14 +805,13 @@ pre {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  background-color: #eeeeee;
   border-style: solid;
   border-width: 1px;
   margin: 15px 0;
   padding: 10px;
 }
 
-/* line 71, ../scss/digitaria/_typography.scss */
+/* line 70, ../scss/digitaria/_typography.scss */
 code {
   font-weight: 400;
   font-style: normal;

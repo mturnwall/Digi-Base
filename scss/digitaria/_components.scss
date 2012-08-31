@@ -1,9 +1,22 @@
-section header {
+footer.page {
+  background-color: $color-text;
+  color: $color-bg;
+  padding: 10px 0;
+}
+
+header, hgroup {
+  h1, h2, h3, h4, h5, h6 {
+    margin: 0;
+  }
+  &.page {
+    background-color: $color-text;
+    color: $color-bg;
+    padding: 10px 0;
+  }
+  &.section {
     border-bottom: 1px solid $color-border;
-    margin-bottom: ms(0);
-    h1, h2, h3, h4, h5, h6 {
-        margin-bottom: 0;
-    }
+    margin: ms(0) 0;
+  }
 }
 
 .fill {

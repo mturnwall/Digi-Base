@@ -61,7 +61,6 @@ blockquote {
 
 pre {
   @include font-mono;
-  background-color: lighten($color-border, 10%);
   border-style: solid;
   border-width: 1px;
   margin: ms(0) 0;
