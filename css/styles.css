@@ -292,112 +292,121 @@ header.section, hgroup.section {
 
 @media (max-width: 768px) {
   /* line 52, ../scss/digitaria/_grid.scss */
-  body {
-    padding: 0 20px;
-  }
-
-  /* line 55, ../scss/digitaria/_grid.scss */
   .container {
+    padding: 0 20px;
     width: auto;
   }
 
-  /* line 58, ../scss/digitaria/_grid.scss */
+  /* line 56, ../scss/digitaria/_grid.scss */
   .row {
+    margin-bottom: 0;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col1 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col2 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col3 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col4 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col5 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col6 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col7 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col8 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col9 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col10 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col11 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
   }
 
-  /* line 62, ../scss/digitaria/_grid.scss */
+  /* line 61, ../scss/digitaria/_grid.scss */
   .col12 {
     float: none;
     display: block;
+    margin-bottom: 10px;
     width: auto;
     margin-left: 0;
     width: 100%;

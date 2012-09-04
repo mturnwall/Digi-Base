@@ -49,19 +49,19 @@
   @if $has-small {
     @media (max-width: $media-small) {
       $media-current: $media-small;
-      body {
-        padding: 0 20px;
-      }
       .container {
+        padding: 0 20px;
         width: auto;
       }
       .row {
+        margin-bottom: 0;
         margin-left: 0;
       }
       @for $i from 1 through $total-columns {
         .col#{$i} {
           float: none;
           display: block;
+          margin-bottom: 10px;
           width: auto;
           margin-left: 0;
           @if $i == $total-columns {
