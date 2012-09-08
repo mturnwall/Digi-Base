@@ -19,8 +19,8 @@ header, hgroup {
   }
 }
 
-.fill {
-  background: lighten($color-border, 10%);
+img, object, embed {
   border: 1px solid $color-border;
-  padding: 10px;
+  height: auto;
+  max-width: 100%;
 }

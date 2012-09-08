@@ -3,6 +3,7 @@
 // compass
 @import "compass/css3";
 @import "compass/reset";
+@import "compass/utilities/general/clearfix";
 //----------------------------
 // modular-scale
 @import 'modular-scale';
@@ -12,6 +13,5 @@
 @import "digitaria/settings";
 @import "digitaria/colors";
 @import "digitaria/components";
-@import "digitaria/functions";
 @import "digitaria/grid";
 @import "digitaria/typography";

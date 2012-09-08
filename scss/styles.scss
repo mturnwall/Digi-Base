@@ -4,3 +4,12 @@
 //----------------------------
 // import digitaria/base
 @import "digitaria/base";
+
+.container {
+  @include grid-container;
+  .row {
+    @include grid-row;
+    @include grid-columns(col);
+    @include grid-column-offsets(off);
+  }
+}

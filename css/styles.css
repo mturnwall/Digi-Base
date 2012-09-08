@@ -118,631 +118,12 @@ header.section, hgroup.section {
 }
 
 /* line 22, ../scss/digitaria/_components.scss */
-.fill {
-  background: #eeeeee;
+img, object, embed {
   border: 1px solid #d4d4d4;
-  padding: 10px;
+  height: auto;
+  max-width: 100%;
 }
 
-/* line 2, ../scss/digitaria/_grid.scss */
-* {
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box;
-}
-
-/* line 7, ../scss/digitaria/_grid.scss */
-.container {
-  margin: 0 auto;
-  width: 880px;
-}
-
-/* line 13, ../scss/digitaria/_grid.scss */
-.row {
-  margin-bottom: 10px;
-  margin-left: -20px;
-  *zoom: 1;
-}
-/* line 18, ../scss/digitaria/_grid.scss */
-.row:before, .row:after {
-  clear: both;
-  display: table;
-  content: "";
-  line-height: 0;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col1 {
-  float: left;
-  margin-left: 20px;
-  width: 55px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col2 {
-  float: left;
-  margin-left: 20px;
-  width: 130px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col3 {
-  float: left;
-  margin-left: 20px;
-  width: 205px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col4 {
-  float: left;
-  margin-left: 20px;
-  width: 280px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col5 {
-  float: left;
-  margin-left: 20px;
-  width: 355px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col6 {
-  float: left;
-  margin-left: 20px;
-  width: 430px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col7 {
-  float: left;
-  margin-left: 20px;
-  width: 505px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col8 {
-  float: left;
-  margin-left: 20px;
-  width: 580px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col9 {
-  float: left;
-  margin-left: 20px;
-  width: 655px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col10 {
-  float: left;
-  margin-left: 20px;
-  width: 730px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col11 {
-  float: left;
-  margin-left: 20px;
-  width: 805px;
-}
-
-/* line 28, ../scss/digitaria/_grid.scss */
-.col12 {
-  float: left;
-  margin-left: 20px;
-  width: 880px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off1 {
-  margin-left: 95px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off2 {
-  margin-left: 170px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off3 {
-  margin-left: 245px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off4 {
-  margin-left: 320px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off5 {
-  margin-left: 395px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off6 {
-  margin-left: 470px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off7 {
-  margin-left: 545px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off8 {
-  margin-left: 620px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off9 {
-  margin-left: 695px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off10 {
-  margin-left: 770px;
-}
-
-/* line 40, ../scss/digitaria/_grid.scss */
-.off11 {
-  margin-left: 845px;
-}
-
-@media (max-width: 768px) {
-  /* line 52, ../scss/digitaria/_grid.scss */
-  .container {
-    padding: 0 20px;
-    width: auto;
-  }
-
-  /* line 56, ../scss/digitaria/_grid.scss */
-  .row {
-    margin-bottom: 0;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col1 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col2 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col3 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col4 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col5 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col6 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col7 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col8 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col9 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col10 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col11 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-  }
-
-  /* line 61, ../scss/digitaria/_grid.scss */
-  .col12 {
-    float: none;
-    display: block;
-    margin-bottom: 10px;
-    width: auto;
-    margin-left: 0;
-    width: 100%;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off1 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off2 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off3 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off4 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off5 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off6 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off7 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off8 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off9 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off10 {
-    margin-left: 0;
-  }
-
-  /* line 73, ../scss/digitaria/_grid.scss */
-  .off11 {
-    margin-left: 0;
-  }
-}
-@media (min-width: 768px) and (max-width: 979px) {
-  /* line 85, ../scss/digitaria/_grid.scss */
-  .container {
-    width: 770px;
-  }
-
-  /* line 88, ../scss/digitaria/_grid.scss */
-  .row {
-    margin-left: -10px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col1 {
-    margin-left: 10px;
-    width: 55px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col2 {
-    margin-left: 10px;
-    width: 120px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col3 {
-    margin-left: 10px;
-    width: 185px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col4 {
-    margin-left: 10px;
-    width: 250px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col5 {
-    margin-left: 10px;
-    width: 315px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col6 {
-    margin-left: 10px;
-    width: 380px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col7 {
-    margin-left: 10px;
-    width: 445px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col8 {
-    margin-left: 10px;
-    width: 510px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col9 {
-    margin-left: 10px;
-    width: 575px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col10 {
-    margin-left: 10px;
-    width: 640px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col11 {
-    margin-left: 10px;
-    width: 705px;
-  }
-
-  /* line 92, ../scss/digitaria/_grid.scss */
-  .col12 {
-    margin-left: 10px;
-    width: 770px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off1 {
-    margin-left: 75px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off2 {
-    margin-left: 140px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off3 {
-    margin-left: 205px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off4 {
-    margin-left: 270px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off5 {
-    margin-left: 335px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off6 {
-    margin-left: 400px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off7 {
-    margin-left: 465px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off8 {
-    margin-left: 530px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off9 {
-    margin-left: 595px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off10 {
-    margin-left: 660px;
-  }
-
-  /* line 98, ../scss/digitaria/_grid.scss */
-  .off11 {
-    margin-left: 725px;
-  }
-}
-@media (min-width: 1200px) {
-  /* line 110, ../scss/digitaria/_grid.scss */
-  .container {
-    width: 1180px;
-  }
-
-  /* line 113, ../scss/digitaria/_grid.scss */
-  .row {
-    margin-left: -20px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col1 {
-    margin-left: 20px;
-    width: 80px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col2 {
-    margin-left: 20px;
-    width: 180px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col3 {
-    margin-left: 20px;
-    width: 280px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col4 {
-    margin-left: 20px;
-    width: 380px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col5 {
-    margin-left: 20px;
-    width: 480px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col6 {
-    margin-left: 20px;
-    width: 580px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col7 {
-    margin-left: 20px;
-    width: 680px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col8 {
-    margin-left: 20px;
-    width: 780px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col9 {
-    margin-left: 20px;
-    width: 880px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col10 {
-    margin-left: 20px;
-    width: 980px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col11 {
-    margin-left: 20px;
-    width: 1080px;
-  }
-
-  /* line 117, ../scss/digitaria/_grid.scss */
-  .col12 {
-    margin-left: 20px;
-    width: 1180px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off1 {
-    margin-left: 120px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off2 {
-    margin-left: 220px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off3 {
-    margin-left: 320px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off4 {
-    margin-left: 420px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off5 {
-    margin-left: 520px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off6 {
-    margin-left: 620px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off7 {
-    margin-left: 720px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off8 {
-    margin-left: 820px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off9 {
-    margin-left: 920px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off10 {
-    margin-left: 1020px;
-  }
-
-  /* line 123, ../scss/digitaria/_grid.scss */
-  .off11 {
-    margin-left: 1120px;
-  }
-}
 /* line 37, ../scss/digitaria/_typography.scss */
 body {
   font-weight: 400;
@@ -826,4 +207,778 @@ code {
   font-style: normal;
   text-rendering: optimizeLegibility;
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+}
+
+/* line 8, ../scss/styles.scss */
+.container {
+  margin: 0 auto;
+  width: 880px;
+  *zoom: 1;
+}
+/* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 768px) {
+  /* line 8, ../scss/styles.scss */
+  .container {
+    padding: 0 20px;
+    width: auto;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 8, ../scss/styles.scss */
+  .container {
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 8, ../scss/styles.scss */
+  .container {
+    width: 1180px;
+  }
+}
+/* line 10, ../scss/styles.scss */
+.container .row {
+  margin-bottom: 10px;
+  margin-left: -20px;
+  *zoom: 1;
+}
+/* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 768px) {
+  /* line 10, ../scss/styles.scss */
+  .container .row {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 10, ../scss/styles.scss */
+  .container .row {
+    margin-left: -10px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 10, ../scss/styles.scss */
+  .container .row {
+    margin-left: -20px;
+  }
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col1 {
+  float: left;
+  margin-left: 20px;
+  width: 55px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col1 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col1 {
+    margin-left: 10px;
+    width: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col1 {
+    margin-left: 20px;
+    width: 80px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col1.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col2 {
+  float: left;
+  margin-left: 20px;
+  width: 130px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col2 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col2 {
+    margin-left: 10px;
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col2 {
+    margin-left: 20px;
+    width: 180px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col2.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col3 {
+  float: left;
+  margin-left: 20px;
+  width: 205px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col3 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col3 {
+    margin-left: 10px;
+    width: 185px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col3 {
+    margin-left: 20px;
+    width: 280px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col3.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col4 {
+  float: left;
+  margin-left: 20px;
+  width: 280px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col4 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col4 {
+    margin-left: 10px;
+    width: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col4 {
+    margin-left: 20px;
+    width: 380px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col4.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col5 {
+  float: left;
+  margin-left: 20px;
+  width: 355px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col5 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col5 {
+    margin-left: 10px;
+    width: 315px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col5 {
+    margin-left: 20px;
+    width: 480px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col5.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col6 {
+  float: left;
+  margin-left: 20px;
+  width: 430px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col6 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col6 {
+    margin-left: 10px;
+    width: 380px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col6 {
+    margin-left: 20px;
+    width: 580px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col6.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col7 {
+  float: left;
+  margin-left: 20px;
+  width: 505px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col7 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col7 {
+    margin-left: 10px;
+    width: 445px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col7 {
+    margin-left: 20px;
+    width: 680px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col7.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col8 {
+  float: left;
+  margin-left: 20px;
+  width: 580px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col8 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col8 {
+    margin-left: 10px;
+    width: 510px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col8 {
+    margin-left: 20px;
+    width: 780px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col8.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col9 {
+  float: left;
+  margin-left: 20px;
+  width: 655px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col9 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col9 {
+    margin-left: 10px;
+    width: 575px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col9 {
+    margin-left: 20px;
+    width: 880px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col9.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col10 {
+  float: left;
+  margin-left: 20px;
+  width: 730px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col10 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col10 {
+    margin-left: 10px;
+    width: 640px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col10 {
+    margin-left: 20px;
+    width: 980px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col10.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col11 {
+  float: left;
+  margin-left: 20px;
+  width: 805px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col11 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col11 {
+    margin-left: 10px;
+    width: 705px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col11 {
+    margin-left: 20px;
+    width: 1080px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col11.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 87, ../scss/digitaria/_grid.scss */
+.container .row .col12 {
+  float: left;
+  margin-left: 20px;
+  width: 880px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+@media (max-width: 768px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col12 {
+    float: none;
+    display: block;
+    margin-bottom: 10px;
+    width: auto;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col12 {
+    margin-left: 10px;
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 87, ../scss/digitaria/_grid.scss */
+  .container .row .col12 {
+    margin-left: 20px;
+    width: 1180px;
+  }
+}
+/* line 79, ../scss/digitaria/_grid.scss */
+.container .row .col12.fill {
+  background: #eeeeee;
+  border: 1px solid #d4d4d4;
+  padding: 10px;
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off1 {
+  margin-left: 95px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off1 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off1 {
+    margin-left: 75px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off1 {
+    margin-left: 120px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off2 {
+  margin-left: 170px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off2 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off2 {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off2 {
+    margin-left: 220px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off3 {
+  margin-left: 245px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off3 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off3 {
+    margin-left: 205px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off3 {
+    margin-left: 320px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off4 {
+  margin-left: 320px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off4 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off4 {
+    margin-left: 270px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off4 {
+    margin-left: 420px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off5 {
+  margin-left: 395px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off5 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off5 {
+    margin-left: 335px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off5 {
+    margin-left: 520px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off6 {
+  margin-left: 470px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off6 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off6 {
+    margin-left: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off6 {
+    margin-left: 620px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off7 {
+  margin-left: 545px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off7 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off7 {
+    margin-left: 465px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off7 {
+    margin-left: 720px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off8 {
+  margin-left: 620px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off8 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off8 {
+    margin-left: 530px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off8 {
+    margin-left: 820px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off9 {
+  margin-left: 695px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off9 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off9 {
+    margin-left: 595px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off9 {
+    margin-left: 920px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off10 {
+  margin-left: 770px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off10 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off10 {
+    margin-left: 660px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off10 {
+    margin-left: 1020px;
+  }
+}
+/* line 108, ../scss/digitaria/_grid.scss */
+.container .row .off11 {
+  margin-left: 845px;
+}
+@media (max-width: 768px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off11 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off11 {
+    margin-left: 725px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 108, ../scss/digitaria/_grid.scss */
+  .container .row .off11 {
+    margin-left: 1120px;
+  }
 }

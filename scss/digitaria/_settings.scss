@@ -1,18 +1,4 @@
-//----------------------------
-// Grid Settings
-$display-grid-bg: false !default;
-$column-width: 55px !default;
-$gutter-width: 20px !default;
-$total-columns: 12 !default;
-// Responsive
-$is-responsive: true !default;
-$has-small: true !default;
-$has-medium: true !default;
-$has-xlarge: true !default;
-$media-current: 0px;
-$media-small: 768px !default;
-$media-medium: 979px !default;
-$media-xlarge: 1200px !default;
+
 
 //----------------------------
 // Typography Settings
@@ -24,4 +10,4 @@ $font-size: 15px !default;
 $color-bg: #ffffff !default;
 $color-link: #4084D0 !default;
 $color-text: #555555 !default;
-$color-border: lighten($color-text, 50%);
+$color-border: lighten($color-text, 50%) !default;
