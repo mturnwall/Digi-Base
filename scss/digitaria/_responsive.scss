@@ -1,0 +1,49 @@
+//----------------------------
+// variables
+//----------------------------
+$is-responsive: true !default;
+$has-small: true !default;
+$has-medium: true !default;
+$has-large: true !default;
+$media-small: 768px !default;
+$media-medium: 979px !default;
+$media-normal: 0px;
+$media-large: 1200px !default;
+$media-current: $media-normal;
+
+//----------------------------
+// mixins
+//----------------------------
+@mixin media-small {
+  @if $is-responsive and $has-small {
+    @media (max-width: $media-small) {
+      $media-current: $media-small;
+      @content;
+    }
+  }
+}
+
+@mixin media-medium {
+  @if $is-responsive and $has-medium {
+    @media (min-width: $media-small) and (max-width: $media-medium) {
+      $media-current: $media-medium;
+      @content;
+    }
+  }
+}
+
+@mixin media-large {
+  @if $is-responsive and $has-large {
+    @media (min-width: $media-large) {
+      $media-current: $media-large;
+      @content;
+    }
+  }
+}
+
+@mixin responsive-images {
+  @if $is-responsive {
+    height: auto;
+    max-width: 100%;
+  }
+}

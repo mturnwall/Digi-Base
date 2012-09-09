@@ -1,21 +1,18 @@
 //----------------------------
+// imports
+//----------------------------
+@import "compass/utilities/general/clearfix";
+@import "digitaria/responsive";
+
+//----------------------------
 // variables
 //----------------------------
-$grid-column-width: 55px !default;
+$grid-column-width: 60px !default;
 $grid-gutter-width: 20px !default;
+$grid-row-spacing: 10px !default;
 $grid-total-columns: 12 !default;
-$grid-column-selector: grid-column !default;
-$grid-column-offset-selector: grid-column-offset !default;
-
-$is-responsive: true !default;
-$has-small: true !default;
-$has-medium: true !default;
-$has-large: true !default;
-$media-small: 768px !default;
-$media-medium: 979px !default;
-$media-normal: 0px;
-$media-large: 1200px !default;
-$media-current: $media-normal;
+$grid-column-selector: grid-column- !default;
+$grid-column-offset-selector: grid-column-offset- !default;
 
 //----------------------------
 // mixins
@@ -39,7 +36,7 @@ $media-current: $media-normal;
 
 @mixin grid-row {
   $media-current: $media-normal;
-  margin-bottom: 10px;
+  margin-bottom: $grid-row-spacing;
   margin-left: - getGridGutterWidth();
   @include pie-clearfix;
   @include media-small {
@@ -77,8 +74,7 @@ $media-current: $media-normal;
     width: getGridColumnWidthById($id);
   }
   &.fill {
-    background: lighten($color-border, 10%);
-    border: 1px solid $color-border;
+    border: 1px solid;
     padding: 10px;
   }
 }
@@ -112,36 +108,6 @@ $media-current: $media-normal;
 }
 
 //----------------------------
-// media-queries
-//----------------------------
-@mixin media-small {
-  @if $is-responsive and $has-small {
-    @media (max-width: $media-small) {
-      $media-current: $media-small;
-      @content;
-    }
-  }
-}
-
-@mixin media-medium {
-  @if $is-responsive and $has-medium {
-    @media (min-width: $media-small) and (max-width: $media-medium) {
-      $media-current: $media-medium;
-      @content;
-    }
-  }
-}
-
-@mixin media-large {
-  @if $is-responsive and $has-large {
-    @media (min-width: $media-large) {
-      $media-current: $media-large;
-      @content;
-    }
-  }
-}
-
-//----------------------------
 // functions
 //----------------------------
 @function getGridContainerWidth() {
@@ -149,14 +115,18 @@ $media-current: $media-normal;
 }
 
 @function getGridColumnWidth() {
-  @if $media-current == $media-medium { @return $grid-column-width; }
-  @if $media-current == $media-large { @return $grid-column-width + 25; }
+  @if $is-responsive {
+    @if $media-current == $media-medium { @return $grid-column-width - 5; }
+    @if $media-current == $media-large { @return $grid-column-width + 20; }
+  }
   @return $grid-column-width;
 }
 
 @function getGridGutterWidth() {
-  @if $media-current == $media-medium { @return 10px; }
-  @if $media-current == $media-large { @return 20px; }
+  @if $is-responsive {
+    @if $media-current == $media-medium { @return 10px; }
+    @if $media-current == $media-large { @return 20px; }
+  }
   @return $grid-gutter-width;
 }
 

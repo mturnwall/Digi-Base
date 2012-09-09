@@ -1,17 +1,12 @@
 @charset "UTF-8";
 //----------------------------
 // compass
+//----------------------------
 @import "compass/css3";
 @import "compass/reset";
-@import "compass/utilities/general/clearfix";
-//----------------------------
-// modular-scale
-@import 'modular-scale';
 
 //----------------------------
 // digitaria
-@import "digitaria/settings";
-@import "digitaria/colors";
-@import "digitaria/components";
+//----------------------------
 @import "digitaria/grid";
 @import "digitaria/typography";

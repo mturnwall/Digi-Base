@@ -63,156 +63,100 @@ article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, 
   display: block;
 }
 
-/* line 1, ../scss/digitaria/_colors.scss */
-a {
-  color: #4084d0;
-}
-/* line 3, ../scss/digitaria/_colors.scss */
-a:hover {
-  color: #225288;
-}
-
-/* line 8, ../scss/digitaria/_colors.scss */
-blockquote {
-  border-color: #d4d4d4;
-}
-
-/* line 12, ../scss/digitaria/_colors.scss */
+/* line 6, ../scss/styles.scss */
 body {
-  background-color: white;
-  color: #555555;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h4 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h5 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  text-rendering: optimizeLegibility;
+}
+/* line 39, ../scss/digitaria/_typography.scss */
+body h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-/* line 17, ../scss/digitaria/_colors.scss */
-code {
-  background-color: #eeeeee;
+/* line 10, ../scss/styles.scss */
+p, blockquote, pre {
+  margin: 15px 0;
 }
 
-/* line 21, ../scss/digitaria/_colors.scss */
-pre {
-  background-color: #eeeeee;
-  border-color: #d4d4d4;
+/* line 13, ../scss/styles.scss */
+blockquote, pre {
+  padding: 0 20px;
 }
 
-/* line 1, ../scss/digitaria/_components.scss */
-footer.page {
-  background-color: #555555;
-  color: white;
-  padding: 10px 0;
+/* line 16, ../scss/styles.scss */
+pre, code {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
 }
 
-/* line 8, ../scss/digitaria/_components.scss */
-header h1, header h2, header h3, header h4, header h5, header h6, hgroup h1, hgroup h2, hgroup h3, hgroup h4, hgroup h5, hgroup h6 {
-  margin: 0;
-}
-/* line 11, ../scss/digitaria/_components.scss */
-header.page, hgroup.page {
-  background-color: #555555;
-  color: white;
-  padding: 10px 0;
-}
-/* line 16, ../scss/digitaria/_components.scss */
-header.section, hgroup.section {
-  border-bottom: 1px solid #d4d4d4;
-  margin: 16px 0;
-}
-
-/* line 22, ../scss/digitaria/_components.scss */
+/* line 19, ../scss/styles.scss */
 img, object, embed {
-  border: 1px solid #d4d4d4;
   height: auto;
   max-width: 100%;
 }
 
-/* line 37, ../scss/digitaria/_typography.scss */
-body {
-  font-weight: 400;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
-  font-size: 15px;
-  line-height: 20px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h1 {
-  font-size: 63px;
-  font-weight: 600;
-  line-height: 84px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h2 {
-  font-size: 47px;
-  font-weight: 600;
-  line-height: 63px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h3 {
-  font-size: 36px;
-  font-weight: 600;
-  line-height: 48px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h4 {
-  font-size: 27px;
-  font-weight: 600;
-  line-height: 36px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h5 {
-  font-size: 20px;
-  font-weight: 600;
-  line-height: 27px;
-}
-
-/* line 44, ../scss/digitaria/_typography.scss */
-h6 {
-  font-size: 15px;
-  font-weight: 600;
-  line-height: 20px;
-}
-
-/* line 51, ../scss/digitaria/_typography.scss */
-p {
-  margin: 15px 0;
-}
-
-/* line 55, ../scss/digitaria/_typography.scss */
-blockquote {
-  border-style: solid;
-  border-left-width: 5px;
-  margin: 15px 10px;
-  padding: 10px;
-}
-
-/* line 62, ../scss/digitaria/_typography.scss */
-pre {
-  font-weight: 400;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-  border-style: solid;
-  border-width: 1px;
-  margin: 15px 0;
-  padding: 10px;
-}
-
-/* line 70, ../scss/digitaria/_typography.scss */
-code {
-  font-weight: 400;
-  font-style: normal;
-  text-rendering: optimizeLegibility;
-  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
-}
-
-/* line 8, ../scss/styles.scss */
+/* line 23, ../scss/styles.scss */
 .container {
   margin: 0 auto;
-  width: 880px;
+  width: 940px;
   *zoom: 1;
 }
 /* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
@@ -222,67 +166,67 @@ code {
   clear: both;
 }
 @media (max-width: 768px) {
-  /* line 8, ../scss/styles.scss */
+  /* line 23, ../scss/styles.scss */
   .container {
     padding: 0 20px;
     width: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 8, ../scss/styles.scss */
+  /* line 23, ../scss/styles.scss */
   .container {
     width: 770px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 8, ../scss/styles.scss */
+  /* line 23, ../scss/styles.scss */
   .container {
     width: 1180px;
   }
 }
-/* line 10, ../scss/styles.scss */
-.container .row {
+/* line 25, ../scss/styles.scss */
+.container .gr {
   margin-bottom: 10px;
   margin-left: -20px;
   *zoom: 1;
 }
 /* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container .row:after {
+.container .gr:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (max-width: 768px) {
-  /* line 10, ../scss/styles.scss */
-  .container .row {
+  /* line 25, ../scss/styles.scss */
+  .container .gr {
     margin-bottom: 0;
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 10, ../scss/styles.scss */
-  .container .row {
+  /* line 25, ../scss/styles.scss */
+  .container .gr {
     margin-left: -10px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 10, ../scss/styles.scss */
-  .container .row {
+  /* line 25, ../scss/styles.scss */
+  .container .gr {
     margin-left: -20px;
   }
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col1 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-1 {
   float: left;
   margin-left: 20px;
-  width: 55px;
+  width: 60px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col1 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-1 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -291,37 +235,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col1 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-1 {
     margin-left: 10px;
     width: 55px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col1 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-1 {
     margin-left: 20px;
     width: 80px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col1.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-1.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col2 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-2 {
   float: left;
   margin-left: 20px;
-  width: 130px;
+  width: 140px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col2 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-2 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -330,37 +273,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col2 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-2 {
     margin-left: 10px;
     width: 120px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col2 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-2 {
     margin-left: 20px;
     width: 180px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col2.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-2.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col3 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-3 {
   float: left;
   margin-left: 20px;
-  width: 205px;
+  width: 220px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col3 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-3 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -369,37 +311,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col3 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-3 {
     margin-left: 10px;
     width: 185px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col3 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-3 {
     margin-left: 20px;
     width: 280px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col3.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-3.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col4 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-4 {
   float: left;
   margin-left: 20px;
-  width: 280px;
+  width: 300px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col4 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-4 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -408,37 +349,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col4 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-4 {
     margin-left: 10px;
     width: 250px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col4 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-4 {
     margin-left: 20px;
     width: 380px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col4.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-4.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col5 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-5 {
   float: left;
   margin-left: 20px;
-  width: 355px;
+  width: 380px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col5 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-5 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -447,37 +387,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col5 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-5 {
     margin-left: 10px;
     width: 315px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col5 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-5 {
     margin-left: 20px;
     width: 480px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col5.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-5.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col6 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-6 {
   float: left;
   margin-left: 20px;
-  width: 430px;
+  width: 460px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col6 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-6 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -486,37 +425,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col6 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-6 {
     margin-left: 10px;
     width: 380px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col6 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-6 {
     margin-left: 20px;
     width: 580px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col6.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-6.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col7 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-7 {
   float: left;
   margin-left: 20px;
-  width: 505px;
+  width: 540px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col7 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-7 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -525,37 +463,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col7 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-7 {
     margin-left: 10px;
     width: 445px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col7 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-7 {
     margin-left: 20px;
     width: 680px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col7.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-7.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col8 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-8 {
   float: left;
   margin-left: 20px;
-  width: 580px;
+  width: 620px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col8 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-8 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -564,37 +501,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col8 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-8 {
     margin-left: 10px;
     width: 510px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col8 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-8 {
     margin-left: 20px;
     width: 780px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col8.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-8.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col9 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-9 {
   float: left;
   margin-left: 20px;
-  width: 655px;
+  width: 700px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col9 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-9 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -603,37 +539,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col9 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-9 {
     margin-left: 10px;
     width: 575px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col9 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-9 {
     margin-left: 20px;
     width: 880px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col9.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-9.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col10 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-10 {
   float: left;
   margin-left: 20px;
-  width: 730px;
+  width: 780px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col10 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-10 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -642,37 +577,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col10 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-10 {
     margin-left: 10px;
     width: 640px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col10 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-10 {
     margin-left: 20px;
     width: 980px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col10.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-10.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col11 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-11 {
   float: left;
   margin-left: 20px;
-  width: 805px;
+  width: 860px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col11 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-11 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -681,37 +615,36 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col11 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-11 {
     margin-left: 10px;
     width: 705px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col11 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-11 {
     margin-left: 20px;
     width: 1080px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col11.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-11.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 87, ../scss/digitaria/_grid.scss */
-.container .row .col12 {
+/* line 83, ../scss/digitaria/_grid.scss */
+.container .gr .gc-12 {
   float: left;
   margin-left: 20px;
-  width: 880px;
+  width: 940px;
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 @media (max-width: 768px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col12 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-12 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -721,264 +654,263 @@ code {
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col12 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-12 {
     margin-left: 10px;
     width: 770px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 87, ../scss/digitaria/_grid.scss */
-  .container .row .col12 {
+  /* line 83, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-12 {
     margin-left: 20px;
     width: 1180px;
   }
 }
-/* line 79, ../scss/digitaria/_grid.scss */
-.container .row .col12.fill {
-  background: #eeeeee;
-  border: 1px solid #d4d4d4;
+/* line 76, ../scss/digitaria/_grid.scss */
+.container .gr .gc-12.fill {
+  border: 1px solid;
   padding: 10px;
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off1 {
-  margin-left: 95px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-1 {
+  margin-left: 100px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off1 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-1 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off1 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-1 {
     margin-left: 75px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off1 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-1 {
     margin-left: 120px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off2 {
-  margin-left: 170px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-2 {
+  margin-left: 180px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off2 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-2 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off2 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-2 {
     margin-left: 140px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off2 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-2 {
     margin-left: 220px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off3 {
-  margin-left: 245px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-3 {
+  margin-left: 260px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off3 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-3 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off3 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-3 {
     margin-left: 205px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off3 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-3 {
     margin-left: 320px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off4 {
-  margin-left: 320px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-4 {
+  margin-left: 340px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off4 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-4 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off4 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-4 {
     margin-left: 270px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off4 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-4 {
     margin-left: 420px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off5 {
-  margin-left: 395px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-5 {
+  margin-left: 420px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off5 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-5 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off5 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-5 {
     margin-left: 335px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off5 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-5 {
     margin-left: 520px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off6 {
-  margin-left: 470px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-6 {
+  margin-left: 500px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off6 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-6 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off6 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-6 {
     margin-left: 400px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off6 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-6 {
     margin-left: 620px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off7 {
-  margin-left: 545px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-7 {
+  margin-left: 580px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off7 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-7 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off7 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-7 {
     margin-left: 465px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off7 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-7 {
     margin-left: 720px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off8 {
-  margin-left: 620px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-8 {
+  margin-left: 660px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off8 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-8 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off8 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-8 {
     margin-left: 530px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off8 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-8 {
     margin-left: 820px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off9 {
-  margin-left: 695px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-9 {
+  margin-left: 740px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off9 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-9 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off9 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-9 {
     margin-left: 595px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off9 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-9 {
     margin-left: 920px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off10 {
-  margin-left: 770px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-10 {
+  margin-left: 820px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off10 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-10 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off10 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-10 {
     margin-left: 660px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off10 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-10 {
     margin-left: 1020px;
   }
 }
-/* line 108, ../scss/digitaria/_grid.scss */
-.container .row .off11 {
-  margin-left: 845px;
+/* line 104, ../scss/digitaria/_grid.scss */
+.container .gr .gc-off-11 {
+  margin-left: 900px;
 }
 @media (max-width: 768px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off11 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-11 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off11 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-11 {
     margin-left: 725px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 108, ../scss/digitaria/_grid.scss */
-  .container .row .off11 {
+  /* line 104, ../scss/digitaria/_grid.scss */
+  .container .gr .gc-off-11 {
     margin-left: 1120px;
   }
 }
