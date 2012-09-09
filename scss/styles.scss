@@ -6,25 +6,29 @@
 body {
   @include type-body;
   @include type-headings;
-}
-p, blockquote, pre {
-  margin: ms(0) 0;
-}
-blockquote, pre {
-  padding: 0 20px;
-}
-pre, code {
-  @include type-mono;
-}
-img, object, embed {
-  @include responsive-images;
-}
 
-.container {
-  @include grid-container;
-  .gr {
-    @include grid-row;
-    @include grid-columns(gc-);
-    @include grid-column-offsets(gc-off-);
+  p, blockquote, pre {
+    margin: ms(0) 0;
+  }
+
+  blockquote, pre {
+    padding: 0 20px;
+  }
+
+  pre, code {
+    @include type-mono;
+  }
+
+  img, object, embed {
+    @include responsive-images;
+  }
+
+  .container {
+    @include grid-container;
+    .gr {
+      @include grid-row;
+      @include grid-columns(gc-);
+      @include grid-column-offsets(gc-off-);
+    }
   }
 }

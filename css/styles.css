@@ -126,19 +126,16 @@ body h6 {
   line-height: 20px;
   text-rendering: optimizeLegibility;
 }
-
 /* line 10, ../scss/styles.scss */
-p, blockquote, pre {
+body p, body blockquote, body pre {
   margin: 15px 0;
 }
-
-/* line 13, ../scss/styles.scss */
-blockquote, pre {
+/* line 14, ../scss/styles.scss */
+body blockquote, body pre {
   padding: 0 20px;
 }
-
-/* line 16, ../scss/styles.scss */
-pre, code {
+/* line 18, ../scss/styles.scss */
+body pre, body code {
   font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
   font-size: 15px;
   font-style: normal;
@@ -146,77 +143,75 @@ pre, code {
   line-height: 20px;
   text-rendering: optimizeLegibility;
 }
-
-/* line 19, ../scss/styles.scss */
-img, object, embed {
+/* line 22, ../scss/styles.scss */
+body img, body object, body embed {
   height: auto;
   max-width: 100%;
 }
-
-/* line 23, ../scss/styles.scss */
-.container {
+/* line 26, ../scss/styles.scss */
+body .container {
   margin: 0 auto;
   width: 940px;
   *zoom: 1;
 }
 /* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container:after {
+body .container:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (max-width: 768px) {
-  /* line 23, ../scss/styles.scss */
-  .container {
+  /* line 26, ../scss/styles.scss */
+  body .container {
     padding: 0 20px;
     width: auto;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 23, ../scss/styles.scss */
-  .container {
+  /* line 26, ../scss/styles.scss */
+  body .container {
     width: 770px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 23, ../scss/styles.scss */
-  .container {
+  /* line 26, ../scss/styles.scss */
+  body .container {
     width: 1180px;
   }
 }
-/* line 25, ../scss/styles.scss */
-.container .gr {
+/* line 28, ../scss/styles.scss */
+body .container .gr {
   margin-bottom: 10px;
   margin-left: -20px;
   *zoom: 1;
 }
 /* line 38, ../../../.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
-.container .gr:after {
+body .container .gr:after {
   content: "";
   display: table;
   clear: both;
 }
 @media (max-width: 768px) {
-  /* line 25, ../scss/styles.scss */
-  .container .gr {
+  /* line 28, ../scss/styles.scss */
+  body .container .gr {
     margin-bottom: 0;
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
-  /* line 25, ../scss/styles.scss */
-  .container .gr {
+  /* line 28, ../scss/styles.scss */
+  body .container .gr {
     margin-left: -10px;
   }
 }
 @media (min-width: 1200px) {
-  /* line 25, ../scss/styles.scss */
-  .container .gr {
+  /* line 28, ../scss/styles.scss */
+  body .container .gr {
     margin-left: -20px;
   }
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-1 {
+body .container .gr .gc-1 {
   float: left;
   margin-left: 20px;
   width: 60px;
@@ -226,7 +221,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-1 {
+  body .container .gr .gc-1 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -236,25 +231,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-1 {
+  body .container .gr .gc-1 {
     margin-left: 10px;
     width: 55px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-1 {
+  body .container .gr .gc-1 {
     margin-left: 20px;
     width: 80px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-1.fill {
+body .container .gr .gc-1.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-2 {
+body .container .gr .gc-2 {
   float: left;
   margin-left: 20px;
   width: 140px;
@@ -264,7 +259,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-2 {
+  body .container .gr .gc-2 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -274,25 +269,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-2 {
+  body .container .gr .gc-2 {
     margin-left: 10px;
     width: 120px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-2 {
+  body .container .gr .gc-2 {
     margin-left: 20px;
     width: 180px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-2.fill {
+body .container .gr .gc-2.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-3 {
+body .container .gr .gc-3 {
   float: left;
   margin-left: 20px;
   width: 220px;
@@ -302,7 +297,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-3 {
+  body .container .gr .gc-3 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -312,25 +307,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-3 {
+  body .container .gr .gc-3 {
     margin-left: 10px;
     width: 185px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-3 {
+  body .container .gr .gc-3 {
     margin-left: 20px;
     width: 280px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-3.fill {
+body .container .gr .gc-3.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-4 {
+body .container .gr .gc-4 {
   float: left;
   margin-left: 20px;
   width: 300px;
@@ -340,7 +335,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-4 {
+  body .container .gr .gc-4 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -350,25 +345,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-4 {
+  body .container .gr .gc-4 {
     margin-left: 10px;
     width: 250px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-4 {
+  body .container .gr .gc-4 {
     margin-left: 20px;
     width: 380px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-4.fill {
+body .container .gr .gc-4.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-5 {
+body .container .gr .gc-5 {
   float: left;
   margin-left: 20px;
   width: 380px;
@@ -378,7 +373,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-5 {
+  body .container .gr .gc-5 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -388,25 +383,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-5 {
+  body .container .gr .gc-5 {
     margin-left: 10px;
     width: 315px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-5 {
+  body .container .gr .gc-5 {
     margin-left: 20px;
     width: 480px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-5.fill {
+body .container .gr .gc-5.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-6 {
+body .container .gr .gc-6 {
   float: left;
   margin-left: 20px;
   width: 460px;
@@ -416,7 +411,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-6 {
+  body .container .gr .gc-6 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -426,25 +421,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-6 {
+  body .container .gr .gc-6 {
     margin-left: 10px;
     width: 380px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-6 {
+  body .container .gr .gc-6 {
     margin-left: 20px;
     width: 580px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-6.fill {
+body .container .gr .gc-6.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-7 {
+body .container .gr .gc-7 {
   float: left;
   margin-left: 20px;
   width: 540px;
@@ -454,7 +449,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-7 {
+  body .container .gr .gc-7 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -464,25 +459,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-7 {
+  body .container .gr .gc-7 {
     margin-left: 10px;
     width: 445px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-7 {
+  body .container .gr .gc-7 {
     margin-left: 20px;
     width: 680px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-7.fill {
+body .container .gr .gc-7.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-8 {
+body .container .gr .gc-8 {
   float: left;
   margin-left: 20px;
   width: 620px;
@@ -492,7 +487,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-8 {
+  body .container .gr .gc-8 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -502,25 +497,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-8 {
+  body .container .gr .gc-8 {
     margin-left: 10px;
     width: 510px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-8 {
+  body .container .gr .gc-8 {
     margin-left: 20px;
     width: 780px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-8.fill {
+body .container .gr .gc-8.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-9 {
+body .container .gr .gc-9 {
   float: left;
   margin-left: 20px;
   width: 700px;
@@ -530,7 +525,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-9 {
+  body .container .gr .gc-9 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -540,25 +535,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-9 {
+  body .container .gr .gc-9 {
     margin-left: 10px;
     width: 575px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-9 {
+  body .container .gr .gc-9 {
     margin-left: 20px;
     width: 880px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-9.fill {
+body .container .gr .gc-9.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-10 {
+body .container .gr .gc-10 {
   float: left;
   margin-left: 20px;
   width: 780px;
@@ -568,7 +563,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-10 {
+  body .container .gr .gc-10 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -578,25 +573,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-10 {
+  body .container .gr .gc-10 {
     margin-left: 10px;
     width: 640px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-10 {
+  body .container .gr .gc-10 {
     margin-left: 20px;
     width: 980px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-10.fill {
+body .container .gr .gc-10.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-11 {
+body .container .gr .gc-11 {
   float: left;
   margin-left: 20px;
   width: 860px;
@@ -606,7 +601,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-11 {
+  body .container .gr .gc-11 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -616,25 +611,25 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-11 {
+  body .container .gr .gc-11 {
     margin-left: 10px;
     width: 705px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-11 {
+  body .container .gr .gc-11 {
     margin-left: 20px;
     width: 1080px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-11.fill {
+body .container .gr .gc-11.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 83, ../scss/digitaria/_grid.scss */
-.container .gr .gc-12 {
+body .container .gr .gc-12 {
   float: left;
   margin-left: 20px;
   width: 940px;
@@ -644,7 +639,7 @@ img, object, embed {
 }
 @media (max-width: 768px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-12 {
+  body .container .gr .gc-12 {
     float: none;
     display: block;
     margin-bottom: 10px;
@@ -655,262 +650,262 @@ img, object, embed {
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-12 {
+  body .container .gr .gc-12 {
     margin-left: 10px;
     width: 770px;
   }
 }
 @media (min-width: 1200px) {
   /* line 83, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-12 {
+  body .container .gr .gc-12 {
     margin-left: 20px;
     width: 1180px;
   }
 }
 /* line 76, ../scss/digitaria/_grid.scss */
-.container .gr .gc-12.fill {
+body .container .gr .gc-12.fill {
   border: 1px solid;
   padding: 10px;
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-1 {
+body .container .gr .gc-off-1 {
   margin-left: 100px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-1 {
+  body .container .gr .gc-off-1 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-1 {
+  body .container .gr .gc-off-1 {
     margin-left: 75px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-1 {
+  body .container .gr .gc-off-1 {
     margin-left: 120px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-2 {
+body .container .gr .gc-off-2 {
   margin-left: 180px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-2 {
+  body .container .gr .gc-off-2 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-2 {
+  body .container .gr .gc-off-2 {
     margin-left: 140px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-2 {
+  body .container .gr .gc-off-2 {
     margin-left: 220px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-3 {
+body .container .gr .gc-off-3 {
   margin-left: 260px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-3 {
+  body .container .gr .gc-off-3 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-3 {
+  body .container .gr .gc-off-3 {
     margin-left: 205px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-3 {
+  body .container .gr .gc-off-3 {
     margin-left: 320px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-4 {
+body .container .gr .gc-off-4 {
   margin-left: 340px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-4 {
+  body .container .gr .gc-off-4 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-4 {
+  body .container .gr .gc-off-4 {
     margin-left: 270px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-4 {
+  body .container .gr .gc-off-4 {
     margin-left: 420px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-5 {
+body .container .gr .gc-off-5 {
   margin-left: 420px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-5 {
+  body .container .gr .gc-off-5 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-5 {
+  body .container .gr .gc-off-5 {
     margin-left: 335px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-5 {
+  body .container .gr .gc-off-5 {
     margin-left: 520px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-6 {
+body .container .gr .gc-off-6 {
   margin-left: 500px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-6 {
+  body .container .gr .gc-off-6 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-6 {
+  body .container .gr .gc-off-6 {
     margin-left: 400px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-6 {
+  body .container .gr .gc-off-6 {
     margin-left: 620px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-7 {
+body .container .gr .gc-off-7 {
   margin-left: 580px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-7 {
+  body .container .gr .gc-off-7 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-7 {
+  body .container .gr .gc-off-7 {
     margin-left: 465px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-7 {
+  body .container .gr .gc-off-7 {
     margin-left: 720px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-8 {
+body .container .gr .gc-off-8 {
   margin-left: 660px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-8 {
+  body .container .gr .gc-off-8 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-8 {
+  body .container .gr .gc-off-8 {
     margin-left: 530px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-8 {
+  body .container .gr .gc-off-8 {
     margin-left: 820px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-9 {
+body .container .gr .gc-off-9 {
   margin-left: 740px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-9 {
+  body .container .gr .gc-off-9 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-9 {
+  body .container .gr .gc-off-9 {
     margin-left: 595px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-9 {
+  body .container .gr .gc-off-9 {
     margin-left: 920px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-10 {
+body .container .gr .gc-off-10 {
   margin-left: 820px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-10 {
+  body .container .gr .gc-off-10 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-10 {
+  body .container .gr .gc-off-10 {
     margin-left: 660px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-10 {
+  body .container .gr .gc-off-10 {
     margin-left: 1020px;
   }
 }
 /* line 104, ../scss/digitaria/_grid.scss */
-.container .gr .gc-off-11 {
+body .container .gr .gc-off-11 {
   margin-left: 900px;
 }
 @media (max-width: 768px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-11 {
+  body .container .gr .gc-off-11 {
     margin-left: 0;
   }
 }
 @media (min-width: 768px) and (max-width: 979px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-11 {
+  body .container .gr .gc-off-11 {
     margin-left: 725px;
   }
 }
 @media (min-width: 1200px) {
   /* line 104, ../scss/digitaria/_grid.scss */
-  .container .gr .gc-off-11 {
+  body .container .gr .gc-off-11 {
     margin-left: 1120px;
   }
 }
