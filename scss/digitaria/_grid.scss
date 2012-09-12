@@ -55,15 +55,18 @@ $grid-column-offset-selector: grid-column-offset- !default;
   $media-current: $media-normal;
   float: left;
   margin-left: getGridGutterWidth();
+  position: relative;
   width: getGridColumnWidthById($id);
-  @include box-sizing(border-box);
+
   @include media-small {
     float: none;
-    display: block;
     margin-bottom: 10px;
-    width: auto;
     margin-left: 0;
-    @if $id == $grid-total-columns { width: 100%; }
+    @if $id == $grid-total-columns {
+      width: 100%;
+    } @else {
+      width: auto;
+    }
   }
   @include media-medium {
     margin-left: getGridGutterWidth();
@@ -74,8 +77,9 @@ $grid-column-offset-selector: grid-column-offset- !default;
     width: getGridColumnWidthById($id);
   }
   &.fill {
+    background-color: #ffffff;
     border: 1px solid;
-    padding: 10px;
+    padding: 10px 10px 100px;
   }
 }
 @mixin grid-columns($selector:$grid-column-selector) {
