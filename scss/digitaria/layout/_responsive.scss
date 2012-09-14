@@ -5,7 +5,7 @@ $is-responsive: true !default;
 $has-small: true !default;
 $has-medium: true !default;
 $has-large: true !default;
-$media-small: 768px !default;
+$media-small: 769px !default;
 $media-medium: 979px !default;
 $media-normal: 0px;
 $media-large: 1200px !default;
@@ -45,18 +45,34 @@ $media-current: $media-normal;
 // mixins
 //----------------------------
 @mixin off-screen {
-  @include media-small {
-    height: 100%;
-    left: -100%;
-    position: absolute;
-    width: 90%;
-    z-index: 10000;
+  .off-screen {
+    @include media-small {
+      height: 100%;
+      left: -100%;
+      overflow: scroll;
+      position: absolute;
+      top: 0;
+      width: 90%;
+      z-index: 10000;
+      @include transition-property(left);
+      @include transition-duration(0.5s);
+      @include transition-timing-function(ease-out);
+      &.on-screen {
+        left: 0;
+      }
+    }
+    .button-close {
+      background-color: lighten(red, 10%);
+      color: #ffffff;
+      padding: 2px 5px;
+      position: absolute;
+      right: 5px;
+      top: 5px;
+      @include border-radius(6px);
 
-    @include transition-property(left);
-    @include transition-duration(0.5s);
-    @include transition-timing-function(ease-out);
-    &.on-screen {
-      left: 0;
+      a {
+        color: #ffffff;
+      }
     }
   }
 }

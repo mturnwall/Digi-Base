@@ -1,6 +1,7 @@
 //----------------------------
 // imports
 //----------------------------
+@import "compass/layout/grid-background";
 @import "compass/utilities/general/clearfix";
 @import "digitaria/responsive";
 
@@ -14,6 +15,8 @@ $grid-total-columns: 12 !default;
 $grid-column-selector: grid-column- !default;
 $grid-column-offset-selector: grid-column-offset- !default;
 
+$grid-background-column-color: #eeeeee;
+
 //----------------------------
 // mixins
 //----------------------------
@@ -21,16 +24,20 @@ $grid-column-offset-selector: grid-column-offset- !default;
   $media-current: $media-normal;
   margin: 0 auto;
   width: getGridContainerWidth();
+//  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   @include pie-clearfix;
   @include media-small {
+    background-image: none;
     padding: 0 20px;
     width: auto;
   }
   @include media-medium {
     width: getGridContainerWidth();
+  //  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   }
   @include media-large {
     width: getGridContainerWidth();
+  //  @include column-grid-background($grid-total-columns, getGridColumnWidth(), getGridGutterWidth());
   }
 }
 
@@ -60,7 +67,7 @@ $grid-column-offset-selector: grid-column-offset- !default;
 
   @include media-small {
     float: none;
-    margin-bottom: 10px;
+    margin-bottom: $grid-row-spacing;
     margin-left: 0;
     @if $id == $grid-total-columns {
       width: 100%;
@@ -77,9 +84,8 @@ $grid-column-offset-selector: grid-column-offset- !default;
     width: getGridColumnWidthById($id);
   }
   &.fill {
-    background-color: #ffffff;
-    border: 1px solid;
-    padding: 10px 10px 100px;
+    background-color: lighten($color-default, 65%);
+    padding: 10px;
   }
 }
 @mixin grid-columns($selector:$grid-column-selector) {
