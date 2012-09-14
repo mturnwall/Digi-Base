@@ -1,94 +1,1201 @@
-/*
-Syntax error: File to import not found or unreadable: digitaria/responsive.
-              Load paths:
-                /Users/dpett/Desktop/digitaria/Digi-Base/scss
-                /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/blueprint/stylesheets
-                /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets
-                /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sassy-math-1.2/stylesheets
-                /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/modular-scale-1.0.2/stylesheets
-                Compass::SpriteImporter
-        on line 6 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss
-        from line 11 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_base.scss
-        from line 4 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria.scss
+/* line 17, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 
-1: /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria.scss
+/* line 22, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+html {
+  line-height: 1;
+}
 
-Backtrace:
-/Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss:6
-/Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_base.scss:11
-/Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria.scss:4
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/import_node.rb:64:in `rescue in import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/import_node.rb:42:in `import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/import_node.rb:25:in `imported_file'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:227:in `rescue in visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:232:in `visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `block in visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `map'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `block in visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `map'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:224:in `visit_import'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `block in visit_children'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `map'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:53:in `visit_children'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:107:in `block in visit_children'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:119:in `with_environment'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:106:in `visit_children'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `block in visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:126:in `visit_root'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/base.rb:37:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:98:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/visitors/perform.rb:7:in `visit'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/tree/root_node.rb:20:in `render'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/engine.rb:315:in `_render'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sass-3.2.1/lib/sass/engine.rb:262:in `render'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:140:in `block (2 levels) in compile'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:139:in `block in compile'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/logger.rb:45:in `red'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:138:in `compile'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:118:in `compile_if_required'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:103:in `block (2 levels) in run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `each'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:101:in `block in run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:126:in `timed'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/compiler.rb:100:in `run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:147:in `recompile'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `call'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/path.rb:73:in `run_callback'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/path.rb:55:in `callback_action'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/path.rb:35:in `update'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/state/directory.rb:39:in `block in modified'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `each'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/state/directory.rb:37:in `modified'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/state/directory.rb:18:in `refresh'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block (2 levels) in run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `each'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:17:in `block in run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `loop'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/backends/polling.rb:15:in `run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm/monitor.rb:26:in `run'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/fssm-0.2.9/lib/fssm.rb:70:in `monitor'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/commands/watch_project.rb:87:in `perform'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/commands/base.rb:18:in `execute'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/commands/project_base.rb:19:in `execute'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/lib/compass/exec/sub_command_ui.rb:15:in `run!'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/bin/compass:30:in `block in <top (required)>'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/bin/compass:44:in `call'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/bin/compass:44:in `<top (required)>'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/bin/compass:19:in `load'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/bin/compass:19:in `<main>'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/bin/ruby_noexec_wrapper:14:in `eval'
-/Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/bin/ruby_noexec_wrapper:14:in `<main>'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Syntax error: File to import not found or unreadable: digitaria/responsive.\A               Load paths:\A                 /Users/dpett/Desktop/digitaria/Digi-Base/scss\A                 /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/blueprint/stylesheets\A                 /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets\A                 /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/sassy-math-1.2/stylesheets\A                 /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/modular-scale-1.0.2/stylesheets\A                 Compass::SpriteImporter\A         on line 6 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss\A         from line 11 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_base.scss\A         from line 4 of /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria.scss\A \A 1: /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria.scss"; }
+/* line 24, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+ol, ul {
+  list-style: none;
+}
+
+/* line 26, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* line 28, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+/* line 30, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q, blockquote {
+  quotes: none;
+}
+/* line 103, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+/* line 32, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+a img {
+  border: none;
+}
+
+/* line 116, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/reset/_utilities.scss */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary {
+  display: block;
+}
+
+/* line 6, ../scss/digitaria.scss */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+/* line 9, ../scss/digitaria.scss */
+body {
+  color: #454545;
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 18, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button, button {
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: #454545;
+  border: 1px solid;
+  border-color: #b8b8b8;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ebebeb), color-stop(100%, #d1d1d1));
+  background-image: -webkit-linear-gradient(#ebebeb, #d1d1d1);
+  background-image: -moz-linear-gradient(#ebebeb, #d1d1d1);
+  background-image: -o-linear-gradient(#ebebeb, #d1d1d1);
+  background-image: linear-gradient(#ebebeb, #d1d1d1);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFEBEBEB', endColorstr='#FFD1D1D1');
+}
+/* line 36, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button:hover, a.button:focus, button:hover, button:focus {
+  color: #454545;
+  border: 1px solid;
+  border-color: #d1d1d1;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ffffff), color-stop(100%, #ebebeb));
+  background-image: -webkit-linear-gradient(#ffffff, #ebebeb);
+  background-image: -moz-linear-gradient(#ffffff, #ebebeb);
+  background-image: -o-linear-gradient(#ffffff, #ebebeb);
+  background-image: linear-gradient(#ffffff, #ebebeb);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFFFFFFF', endColorstr='#FFEBEBEB');
+}
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button:active, button:active {
+  background-color: #d1d1d1;
+}
+/* line 20, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.primary, button.primary {
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid;
+  border-color: #275a74;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4196bf), color-stop(100%, #34789a));
+  background-image: -webkit-linear-gradient(#4196bf, #34789a);
+  background-image: -moz-linear-gradient(#4196bf, #34789a);
+  background-image: -o-linear-gradient(#4196bf, #34789a);
+  background-image: linear-gradient(#4196bf, #34789a);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4196BF', endColorstr='#FF34789A');
+}
+/* line 36, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.primary:hover, a.button.primary:focus, button.primary:hover, button.primary:focus {
+  color: white;
+  border: 1px solid;
+  border-color: #34789a;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #67abcc), color-stop(100%, #4196bf));
+  background-image: -webkit-linear-gradient(#67abcc, #4196bf);
+  background-image: -moz-linear-gradient(#67abcc, #4196bf);
+  background-image: -o-linear-gradient(#67abcc, #4196bf);
+  background-image: linear-gradient(#67abcc, #4196bf);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF67ABCC', endColorstr='#FF4196BF');
+}
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.primary:active, button.primary:active {
+  background-color: #34789a;
+}
+/* line 23, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.secondary, button.secondary {
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid;
+  border-color: #833332;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #c05c5a), color-stop(100%, #a74240));
+  background-image: -webkit-linear-gradient(#c05c5a, #a74240);
+  background-image: -moz-linear-gradient(#c05c5a, #a74240);
+  background-image: -o-linear-gradient(#c05c5a, #a74240);
+  background-image: linear-gradient(#c05c5a, #a74240);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFC05C5A', endColorstr='#FFA74240');
+}
+/* line 36, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.secondary:hover, a.button.secondary:focus, button.secondary:hover, button.secondary:focus {
+  color: white;
+  border: 1px solid;
+  border-color: #a74240;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #ce817f), color-stop(100%, #c05c5a));
+  background-image: -webkit-linear-gradient(#ce817f, #c05c5a);
+  background-image: -moz-linear-gradient(#ce817f, #c05c5a);
+  background-image: -o-linear-gradient(#ce817f, #c05c5a);
+  background-image: linear-gradient(#ce817f, #c05c5a);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FFCE817F', endColorstr='#FFC05C5A');
+}
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.secondary:active, button.secondary:active {
+  background-color: #a74240;
+}
+/* line 26, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.tertiary, button.tertiary {
+  padding: 5px 10px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+  color: white;
+  border: 1px solid;
+  border-color: #2c552d;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #4f9950), color-stop(100%, #3d773e));
+  background-image: -webkit-linear-gradient(#4f9950, #3d773e);
+  background-image: -moz-linear-gradient(#4f9950, #3d773e);
+  background-image: -o-linear-gradient(#4f9950, #3d773e);
+  background-image: linear-gradient(#4f9950, #3d773e);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF4F9950', endColorstr='#FF3D773E');
+}
+/* line 36, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.tertiary:hover, a.button.tertiary:focus, button.tertiary:hover, button.tertiary:focus {
+  color: white;
+  border: 1px solid;
+  border-color: #3d773e;
+  background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #69b26a), color-stop(100%, #4f9950));
+  background-image: -webkit-linear-gradient(#69b26a, #4f9950);
+  background-image: -moz-linear-gradient(#69b26a, #4f9950);
+  background-image: -o-linear-gradient(#69b26a, #4f9950);
+  background-image: linear-gradient(#69b26a, #4f9950);
+  *zoom: 1;
+  filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF69B26A', endColorstr='#FF4F9950');
+}
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_buttons.scss */
+a.button.tertiary:active, button.tertiary:active {
+  background-color: #3d773e;
+}
+
+/* line 16, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_labels.scss */
+.label {
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #dedede;
+  color: #454545;
+}
+/* line 18, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_labels.scss */
+.label.primary {
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #3a87ad;
+  color: white;
+}
+/* line 21, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_labels.scss */
+.label.secondary {
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #b94a48;
+  color: white;
+}
+/* line 24, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/ui/_labels.scss */
+.label.tertiary {
+  padding: 4px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
+  border-radius: 8px;
+  background-color: #468847;
+  color: white;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h1 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 63px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 84px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h2 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 47px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 63px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h3 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 48px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h4 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 27px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h5 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 27px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 39, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/_typography.scss */
+h6 {
+  font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+@media (max-width: 769px) {
+  /* line 88, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .hide-small {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 93, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .hide-medium {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  /* line 98, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .hide-large {
+    display: none;
+  }
+}
+
+/* line 104, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+.show-small {
+  display: none;
+}
+@media (max-width: 769px) {
+  /* line 104, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .show-small {
+    display: block;
+  }
+}
+
+/* line 110, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+.show-medium {
+  display: none;
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 110, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .show-medium {
+    display: block;
+  }
+}
+
+/* line 116, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+.show-large {
+  display: none;
+}
+@media (min-width: 1200px) {
+  /* line 116, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .show-large {
+    display: block;
+  }
+}
+
+/* line 20, ../scss/digitaria.scss */
+p, blockquote, pre {
+  margin: 15px 0;
+}
+
+/* line 24, ../scss/digitaria.scss */
+blockquote, pre {
+  padding: 0 20px;
+}
+
+/* line 28, ../scss/digitaria.scss */
+pre, code {
+  font-family: Consolas, "Andale Mono WT", "Andale Mono", "Lucida Console", "Lucida Sans Typewriter", "DejaVu Sans Mono", "Bitstream Vera Sans Mono", "Liberation Mono", "Nimbus Mono L", Monaco, "Courier New", Courier, monospace;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-rendering: optimizeLegibility;
+}
+
+/* line 32, ../scss/digitaria.scss */
+img, object, embed {
+  height: auto;
+  max-width: 100%;
+}
+
+/* line 36, ../scss/digitaria.scss */
+a {
+  color: #3a87ad;
+  text-decoration: none;
+}
+/* line 39, ../scss/digitaria.scss */
+a:hover, a:focus, a.active {
+  border-bottom: 5px solid #54a0c6;
+  color: #54a0c6;
+}
+
+/* line 45, ../scss/digitaria.scss */
+.container {
+  margin: 0 auto;
+  width: 940px;
+  *zoom: 1;
+}
+/* line 38, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 769px) {
+  /* line 45, ../scss/digitaria.scss */
+  .container {
+    background-image: none;
+    padding: 0 20px;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 45, ../scss/digitaria.scss */
+  .container {
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 45, ../scss/digitaria.scss */
+  .container {
+    width: 1180px;
+  }
+}
+/* line 47, ../scss/digitaria.scss */
+.container .gr {
+  margin-bottom: 10px;
+  margin-left: -20px;
+  *zoom: 1;
+}
+/* line 38, /Users/dpett/.rvm/gems/ruby-1.9.3-p194@digi_base/gems/compass-0.12.2/frameworks/compass/stylesheets/compass/utilities/general/_clearfix.scss */
+.container .gr:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 769px) {
+  /* line 47, ../scss/digitaria.scss */
+  .container .gr {
+    margin-bottom: 0;
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 47, ../scss/digitaria.scss */
+  .container .gr {
+    margin-left: -10px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 47, ../scss/digitaria.scss */
+  .container .gr {
+    margin-left: -20px;
+  }
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-1 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 60px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-1 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-1 {
+    margin-left: 10px;
+    width: 55px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-1 {
+    margin-left: 20px;
+    width: 80px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-1.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-2 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 140px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-2 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-2 {
+    margin-left: 10px;
+    width: 120px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-2 {
+    margin-left: 20px;
+    width: 180px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-2.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-3 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 220px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-3 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-3 {
+    margin-left: 10px;
+    width: 185px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-3 {
+    margin-left: 20px;
+    width: 280px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-3.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-4 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 300px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-4 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-4 {
+    margin-left: 10px;
+    width: 250px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-4 {
+    margin-left: 20px;
+    width: 380px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-4.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-5 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 380px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-5 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-5 {
+    margin-left: 10px;
+    width: 315px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-5 {
+    margin-left: 20px;
+    width: 480px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-5.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-6 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 460px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-6 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-6 {
+    margin-left: 10px;
+    width: 380px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-6 {
+    margin-left: 20px;
+    width: 580px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-6.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-7 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 540px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-7 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-7 {
+    margin-left: 10px;
+    width: 445px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-7 {
+    margin-left: 20px;
+    width: 680px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-7.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-8 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 620px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-8 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-8 {
+    margin-left: 10px;
+    width: 510px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-8 {
+    margin-left: 20px;
+    width: 780px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-8.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-9 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 700px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-9 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-9 {
+    margin-left: 10px;
+    width: 575px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-9 {
+    margin-left: 20px;
+    width: 880px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-9.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-10 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 780px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-10 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-10 {
+    margin-left: 10px;
+    width: 640px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-10 {
+    margin-left: 20px;
+    width: 980px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-10.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-11 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 860px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-11 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: auto;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-11 {
+    margin-left: 10px;
+    width: 705px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-11 {
+    margin-left: 20px;
+    width: 1080px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-11.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-12 {
+  float: left;
+  margin-left: 20px;
+  position: relative;
+  width: 940px;
+}
+@media (max-width: 769px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-12 {
+    float: none;
+    margin-bottom: 10px;
+    margin-left: 0;
+    width: 100%;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-12 {
+    margin-left: 10px;
+    width: 770px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 94, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-12 {
+    margin-left: 20px;
+    width: 1180px;
+  }
+}
+/* line 87, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-12.fill {
+  background-color: #ebebeb;
+  padding: 10px;
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-1 {
+  margin-left: 100px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-1 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-1 {
+    margin-left: 75px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-1 {
+    margin-left: 120px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-2 {
+  margin-left: 180px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-2 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-2 {
+    margin-left: 140px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-2 {
+    margin-left: 220px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-3 {
+  margin-left: 260px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-3 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-3 {
+    margin-left: 205px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-3 {
+    margin-left: 320px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-4 {
+  margin-left: 340px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-4 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-4 {
+    margin-left: 270px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-4 {
+    margin-left: 420px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-5 {
+  margin-left: 420px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-5 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-5 {
+    margin-left: 335px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-5 {
+    margin-left: 520px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-6 {
+  margin-left: 500px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-6 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-6 {
+    margin-left: 400px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-6 {
+    margin-left: 620px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-7 {
+  margin-left: 580px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-7 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-7 {
+    margin-left: 465px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-7 {
+    margin-left: 720px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-8 {
+  margin-left: 660px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-8 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-8 {
+    margin-left: 530px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-8 {
+    margin-left: 820px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-9 {
+  margin-left: 740px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-9 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-9 {
+    margin-left: 595px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-9 {
+    margin-left: 920px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-10 {
+  margin-left: 820px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-10 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-10 {
+    margin-left: 660px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-10 {
+    margin-left: 1020px;
+  }
+}
+/* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+.container .gr .gc-off-11 {
+  margin-left: 900px;
+}
+@media (max-width: 769px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-11 {
+    margin-left: 0;
+  }
+}
+@media (min-width: 769px) and (max-width: 979px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-11 {
+    margin-left: 725px;
+  }
+}
+@media (min-width: 1200px) {
+  /* line 115, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_grid.scss */
+  .container .gr .gc-off-11 {
+    margin-left: 1120px;
+  }
+}
+@media (max-width: 769px) {
+  /* line 48, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .container .gr .off-screen {
+    height: 100%;
+    left: -100%;
+    overflow: scroll;
+    position: absolute;
+    top: 0;
+    width: 90%;
+    z-index: 10000;
+    -webkit-transition-property: left;
+    -moz-transition-property: left;
+    -o-transition-property: left;
+    transition-property: left;
+    -webkit-transition-duration: 0.5s;
+    -moz-transition-duration: 0.5s;
+    -o-transition-duration: 0.5s;
+    transition-duration: 0.5s;
+    -webkit-transition-timing-function: ease-out;
+    -moz-transition-timing-function: ease-out;
+    -o-transition-timing-function: ease-out;
+    transition-timing-function: ease-out;
+  }
+  /* line 60, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+  .container .gr .off-screen.on-screen {
+    left: 0;
+  }
+}
+/* line 64, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+.container .gr .off-screen .button-close {
+  background-color: #ff3333;
+  color: #ffffff;
+  padding: 2px 5px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  -ms-border-radius: 6px;
+  -o-border-radius: 6px;
+  border-radius: 6px;
+}
+/* line 73, /Users/dpett/Desktop/digitaria/Digi-Base/scss/digitaria/layout/_responsive.scss */
+.container .gr .off-screen .button-close a {
+  color: #ffffff;
+}
+/* line 52, ../scss/digitaria.scss */
+.container .gr .gc-info {
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}
