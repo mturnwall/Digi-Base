@@ -1,4 +1,20 @@
+//----------------------------
+// variables
+//----------------------------
+$color-grade: 15% !default;
+
 $color-default: #454545 !default;
 $color-primary: #3A87AD !default;
 $color-secondary: #B94A48 !default;
 $color-tertiary: #468847 !default;
+
+//----------------------------
+// functions
+//----------------------------
+@function color-lighten($color:$color-default, $grade:$color-grade) {
+  @return lighten($color, $grade);
+}
+
+@function color-darken($color:$color-default, $grade:$color-grade) {
+  @return darken($color, $grade);
+}

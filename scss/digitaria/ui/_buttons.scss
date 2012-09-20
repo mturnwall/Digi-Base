@@ -34,20 +34,20 @@ $button-padding: 5px 10px !default;
   @include border-radius($button-border-radius);
   @include color-button($text-color, $bg-color);
   &:hover, &:focus {
-    @include color-button($text-color, lighten($bg-color, 10%));
+    @include color-button($text-color, color-lighten($bg-color));
   }
   &:active {
-    background-color: darken($bg-color, 5%);
+    background-color: color-darken($bg-color);
   }
 }
 
 @mixin color-button($text-color, $bg-color) {
   color: $text-color;
   border: $button-border;
-  border-color: darken($bg-color, 15%);
+  border-color: color-darken($bg-color);
   @if $button-gradient {
-    @include background-image(linear-gradient(lighten($bg-color, 5%), darken($bg-color, 5%)));
-    @include filter-gradient(lighten($bg-color, 5%), darken($bg-color, 5%));
+    @include background-image(linear-gradient(color-lighten($bg-color), color-darken($bg-color)));
+    @include filter-gradient(color-lighten($bg-color), color-darken($bg-color));
   } @else {
     background-color: $bg-color;
   }
