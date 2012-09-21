@@ -7,6 +7,7 @@
   @include box-sizing(border-box);
 }
 body {
+  background-color: #f7f7f7;
   color: $color-default;
   @include type-body;
 }
@@ -51,8 +52,8 @@ a {
     @include off-screen;
     .gc-info {
       position: absolute;
-      right: 5px;
-      top: 5px;
+      left: 10px;
+      bottom: 10px;
     }
   }
 }

@@ -968,7 +968,7 @@ a.active {
 }
 @media (max-width: 768px) {
   /* line 48, ../scss/styles.scss */
-  .container .gr .off-screen {
+  .container .gr .off screen {
     height: 100%;
     left: -100%;
     position: absolute;

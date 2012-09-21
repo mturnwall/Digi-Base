@@ -85,8 +85,10 @@ $grid-background-column-color: #eeeeee;
     width: getGridColumnWidthById($id);
   }
   &.fill {
-    background-color: lighten($color-default, 65%);
-    padding: 10px;
+    background-color: $color-primary;
+    border: 1px solid $color-tertiary;
+    outline: 1px solid $color-primary;
+    padding: 10px 10px 200px;
   }
 }
 @mixin grid-columns($selector:$grid-column-selector) {

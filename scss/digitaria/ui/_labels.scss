@@ -6,8 +6,8 @@
 //----------------------------
 // variables
 //----------------------------
-$label-border-radius: 8px !default;
-$label-padding: 4px !default;
+$label-border-radius: 3px !default;
+$label-padding: 10px !default;
 
 //----------------------------
 // mixins
@@ -29,6 +29,9 @@ $label-padding: 4px !default;
 
 @mixin label($text-color:$color-default, $bg-color:lighten($color-default, 60%)) {
   padding: $label-padding;
+  font-size: 12px;
+  line-height: 12px;
+  text-transform: uppercase;
   @include border-radius($label-border-radius);
   @include color-label($text-color, $bg-color);
 }
